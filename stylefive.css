@@ -1,0 +1,31 @@
+/* Food Waste Page */
+.blog
+{
+    background-color:#F1E5AC;
+    border-radius: 10px;
+    border: 4px solid white;
+    padding: 16px;
+    font-family: "helvetica";
+    padding-bottom: 10%;
+}
+
+.blog h1
+{
+  text-align: center;
+}
+
+.blog a
+{
+  color: black;
+}
+
+.noBullets
+{
+  list-style-type: none;
+}
+
+#graph
+{
+  float: right;
+  border:3px solid black;
+}

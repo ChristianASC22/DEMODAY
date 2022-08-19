@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pantry Finder</title>
+  </head>
+
+  <body>
+    <div id="head">
+      <img
+        src="https://cdn.glitch.global/ab0174ab-09b9-4f7a-b999-1c9af0439c9e/logo4.png?v=1660744371574"
+        width="150px"
+      />
+      <h1 id="company_name">Pantry Finder</h1>
+    </div>
+
+    <div id="nav_bar">
+      <a href="./index.html"><div class="items">Home/Search</div></a>
+      <a href="./index3.html"><div class="items">Volunteer</div></a>
+      <a href="./index2.html"><div class="items">Food-Drives</div></a>
+      <a href="./foodwaste.html"><div class="items">Food Waste</div></a>
+      <a href="./donation.html"><div class="items">Extras</div></a>
+    </div>
+    <br />
+    <div id="search">
+      <h3>Search for a Local Pantry</h3>
+      <div class="parameter">
+        <input
+          class="form-control"
+          type="text"
+          id="City"
+          placeholder="Enter your City"
+        />
+      </div>
+
+      <div class="parameter">
+        <input
+          class="form-control"
+          type="text"
+          id="State"
+          placeholder="Enter your State"
+        />
+      </div>
+
+      <div class="form-group">
+        <label for="zoom" >Zoom (between 10 and 20):</label>
+        <input
+          class="form-control"
+          type="range"
+          id="zoom"
+          min="10"
+          value="13"
+          max="20"
+        />
+      </div>
+
+      <div class="form-check">
+        <label class="form-check-label">
+          <input
+            type="radio"
+            class="form-check-input"
+            value="roadmap"
+            checked
+            name="maptype"
+          />Roadmap
+        </label>
+
+        <label class="form-check-label">
+          <input
+            type="radio"
+            class="form-check-input"
+            value="satellite"
+            name="maptype"
+          />Satellite
+        </label>
+
+        <label class="form-check-label">
+          <input
+            type="radio"
+            class="form-check-input"
+            value="hybrid"
+            name="maptype"
+          />Hybrid
+        </label>
+
+        <label class="form-check-label">
+          <input
+            type="radio"
+            class="form-check-input"
+            value="terrain"
+            name="maptype"
+          />Terrain
+        </label>
+      </div>
+      <br />
+       <div id="btn_div">
+      <button class="form-check" id="btn" onclick="getmap()">Get Map</button>
+         </div>
+           
+         </div>
+      <br />
+    
+    <div id="map_div">
+      <img class="class_map" id="map" />
+    </div>
+    
+    <div id="infoContainer"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

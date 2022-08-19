@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="./stylethree.css">
+    <title>Volunteer</title>
+</head>
+<body>
+
+<div id="head">
+  <img src="https://cdn.glitch.global/ab0174ab-09b9-4f7a-b999-1c9af0439c9e/logo4.png?v=1660744371574" width="150px">
+  <h1 id = "company_name">
+    Pantry Finder
+  </h1>
+</div>
+
+
+<div id="nav_bar">
+    <a href="./index.html"><div class = "items">Home/Search </div></a>
+    <a href="./index3.html"><div class = "items">Volunteer</div></a>
+    <a href="./index2.html"><div class = "items">Food-Drives</div></a>
+    <a href="./foodwaste.html"><div class = "items">Food Waste</div></a>
+    <a href="./donation.html"><div class = "items">Extras</div></a>
+</div>  
+
+<form>
+
+    <h1>Post about a Volunteer Position </h1>
+    <label for="companyInput">Company Name</label>
+    <input id="companyInput" type="text" placeholder="Children's Food Pantry" required/>
+    <label for="NameInput">Name</label>
+    <input id="NameInput" type="text" placeholder="Nancy Jones" required>
+    <label for="LocationInput">Location</label>
+    <input id="LocationInput" type = "text" placeholder="xx-yy zzth street" required>
+    <label for="zipcodeInput">Zip Code</label>
+    <input id="zipcodeInput" type="text" placeholder="11378" required>
+    <label for="contentInput">Description</label>
+    <input id="contentInput" type = "text" placeholder="Help wanted" required>
+  <br>
+    <button id="submitBtn">Submit</button>
+  </form>
+    
+<!--   <form>
+    <h1> Filter your results</h1>
+    <label for = "userzipcodeInput">Zip Code</label>
+    <input id="userzipcodeInput" type = "text" placeholder="12677" required>
+    <h6>Search Distance</h6>
+    <label>3 Miles</label>
+    <input type= "checkbox" id="miles3">
+    <label>5 Miles</label>
+    <input type= "checkbox" id="miles5">
+    <label>10 Miles</label>
+    <input type= "checkbox" id="miles10">
+    <br>
+    <button id="submitBtn2">Submit</button>
+  </form> -->
+  
+  <h6 id="results">
+     Results:
+  </h6>
+  <div id="post">
+
+  </div>
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="maintwo.js"></script>
+</body>
+</html>

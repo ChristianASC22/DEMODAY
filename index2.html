@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="./styletwo.css">
+    <title>Food-Drives</title>
+</head>
+<body>
+
+<div id="head">
+  <img src="https://cdn.glitch.global/ab0174ab-09b9-4f7a-b999-1c9af0439c9e/logo4.png?v=1660744371574" width="150px">
+  <h1 id = "company_name">
+    Pantry Finder
+  </h1>
+</div>
+
+
+<div id="nav_bar">
+    <a href="./index.html"><div class = "items">Home/Search </div></a>
+    <a href="./index3.html"><div class = "items">Volunteer</div></a>
+    <a href="./index2.html"><div class = "items">Food-Drives</div></a>
+    <a href="./foodwaste.html"><div class = "items">Food Waste</div></a>
+    <a href="./donation.html"><div class = "items">Extras</div></a>
+  </div>  
+
+<form>
+
+    <h1>Post about a food-drive </h1>
+    <label for="nameInput">Name</label>
+    <input id="nameInput" type="text" placeholder="Mark" required />
+    <label for="titleInput">Title</label>
+    <input id="titleInput" type="text" placeholder="food-drive" required>
+    <label for="zipcodeInput">Zip Code</label>
+    <input id="zipcodeInput" type="text" placeholder="11378" required>
+    <label for="contentInput">Content</label>
+    <input id="contentInput" type = "text" placeholder="When, Where, and more" required>
+  <br>
+    <button id="submitBtn">Submit</button>
+  </form>
+   
+<!--   <form>
+    <h1> Filter your results</h1>
+    <label for = "userzipcodeInput">Zip Code</label>
+    <input id="userzipcodeInput" type = "text" placeholder="12677" required>
+    <h6>Search Distance</h6>
+    <label>3 Miles</label>
+    <input type= "checkbox" id="miles3">
+    <label>5 Miles</label>
+    <input type= "checkbox" id="miles5">
+    <label>10 Miles</label>
+    <input type= "checkbox" id="miles10">
+    <br>
+    <button id="submitBtn2">Submit</button>
+  </form> -->
+  <div id="post">
+
+</div>
+
+
+<div id="allPosts">
+  
+</div>
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

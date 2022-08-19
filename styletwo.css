@@ -1,0 +1,91 @@
+/* Food-Drives Page */
+form {
+    width: 50vw;
+    margin: auto;
+    display: block;
+    background-color:#f1e5ac;
+    border-radius: 10px;
+    border: 4px solid black;
+    text-align: center;
+    padding: 10px;
+    font-family: "helvetica";
+  }
+
+#nameInput{
+    border: 4px solid black;
+    width: 25%;
+    font-size: larger;
+    padding: 5px;
+}
+#titleInput{
+    border: 4px solid black;
+    width: 25%;
+    font-size: larger;
+    padding: 5px;
+  }
+  #contentInput{
+    border: 4px solid black;
+    width: 25%;
+    font-size: larger;
+    padding: 5px;
+  }
+#zipcodeInput{
+    border: 4px solid black;
+  width: 25%;
+  font-size: larger;
+  padding: 5px;
+  margin: 5px;
+}
+  #submitBtn {
+    font-size: larger;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-weight: bolder;
+    background-color: #ff4040;
+    color: black;
+    margin: 16px;
+    padding: 16px 48px;
+  }
+  .userpostcontent{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+.row{
+  display:flex;
+}
+.col{
+  text-align:center;
+  margin:10px;
+  width:48%;
+  border-radius: 20px;
+  border: 5px solid black;
+  background-color: white;
+}
+#allPosts
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#company_title{
+  text-decoration: none;
+}
+#head
+{
+  display: flex;
+  align-items: center;
+}
+#head img
+{
+  border-style: solid;
+  border-width: 3px;
+  border-color: purple;
+  border-radius: 50%;
+  width: 100px;
+  margin-right: 16px;
+}
+h6{
+  font-size:20px;
+    margin-bottom: 5px;
+}
